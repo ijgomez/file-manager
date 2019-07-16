@@ -3,20 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ClarityModule } from '@clr/angular';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavComponent } from './layouts/nav/nav.component';
+import { HeaderComponent } from './core/layout/header/header.component';
+import { MenuComponent } from './core/layout/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    HeaderComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    ClarityModule,
-    BrowserAnimationsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
