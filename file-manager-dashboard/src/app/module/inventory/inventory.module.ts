@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { InventoryRoutingModule } from './inventory-routing.module';
-import { IndexComponent } from './pages/index/index.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
-  declarations: [IndexComponent],
+  declarations: [HomeComponent],
   imports: [
     CommonModule,
     InventoryRoutingModule
