@@ -4,12 +4,14 @@ import { CommonModule } from '@angular/common';
 import { SchedulerRoutingModule } from './scheduler-routing.module';
 import { ListComponent } from './pages/list/list.component';
 import { HomeComponent } from './pages/home/home.component';
+import { CoreModule } from 'src/app/core/core.module';
 
 @NgModule({
   declarations: [ListComponent, HomeComponent],
   imports: [
     CommonModule,
-    SchedulerRoutingModule
+    SchedulerRoutingModule,
+    CoreModule
   ]
 })
 export class SchedulerModule { }

@@ -2,15 +2,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { CoreRoutingModule } from './core-routing.module';
-import { MenuComponent } from './layout/menu/menu.component';
-import { HeaderComponent } from './layout/header/header.component';
 import { DataTableComponent } from './components/data-table/data-table.component';
+import { HeaderPageComponent } from './layout/header-page/header-page.component';
 
 @NgModule({
-  declarations: [MenuComponent, HeaderComponent, DataTableComponent],
+  declarations: [DataTableComponent, HeaderPageComponent],
   imports: [
     CommonModule,
     CoreRoutingModule
-  ]
+  ],
+  exports: [HeaderPageComponent, DataTableComponent]
 })
 export class CoreModule { }
