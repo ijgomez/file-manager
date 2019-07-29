@@ -5,12 +5,14 @@ import { CoreRoutingModule } from './core-routing.module';
 import { DataTableComponent } from './components/data-table/data-table.component';
 import { HeaderPageComponent } from './layout/header-page/header-page.component';
 import { DataTableFilterComponent } from './components/data-table-filter/data-table-filter.component';
+import { DataTablesModule } from 'angular-datatables';
 
 @NgModule({
   declarations: [DataTableComponent, HeaderPageComponent, DataTableFilterComponent],
   imports: [
     CommonModule,
-    CoreRoutingModule
+    CoreRoutingModule,
+    DataTablesModule
   ],
   exports: [HeaderPageComponent, DataTableComponent, DataTableFilterComponent]
 })
