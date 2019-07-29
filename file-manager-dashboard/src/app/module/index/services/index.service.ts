@@ -14,24 +14,24 @@ export class IndexService extends FileManagerServiceBase implements FileManagerS
    }
 
   findByCriteria(criteria: IndexCriteria): Observable<Index[]> {
-    throw new Error("Method not implemented.");
+    throw new Error('Method not implemented.');
   }
   countByCriteria(criteria: IndexCriteria): Observable<number> {
-    throw new Error("Method not implemented.");
+    throw new Error('Method not implemented.');
   }
   create(object: Index): Observable<number> {
-    throw new Error("Method not implemented.");
+    throw new Error('Method not implemented.');
   }
   read(id: string | number): Observable<Index> {
-    throw new Error("Method not implemented.");
+    throw new Error('Method not implemented.');
   }
   update(object: Index): Observable<number> {
-    throw new Error("Method not implemented.");
+    throw new Error('Method not implemented.');
   }
   delete(object: Index): Observable<number> {
-    throw new Error("Method not implemented.");
+    throw new Error('Method not implemented.');
   }
   export(criteria: IndexCriteria): Observable<any> {
-    throw new Error("Method not implemented.");
+    throw new Error('Method not implemented.');
   }
 }

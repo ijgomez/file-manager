@@ -5,6 +5,7 @@ import { SchedulerRoutingModule } from './scheduler-routing.module';
 import { ListComponent } from './pages/list/list.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CoreModule } from 'src/app/core/core.module';
+import { SchedulerService } from './services/scheduler.service';
 
 @NgModule({
   declarations: [ListComponent, HomeComponent],
@@ -12,6 +13,7 @@ import { CoreModule } from 'src/app/core/core.module';
     CommonModule,
     SchedulerRoutingModule,
     CoreModule
-  ]
+  ],
+  providers: [SchedulerService]
 })
 export class SchedulerModule { }
