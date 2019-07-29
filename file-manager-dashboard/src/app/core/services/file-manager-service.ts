@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs';
 
-export interface FileManager<T, C> {
+export interface FileManagerService<T, C> {
 
     findByCriteria(criteria: C): Observable<T[]>;
 
