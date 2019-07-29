@@ -27,5 +27,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-## URLs
-https://getbootstrap.com/docs/4.3/examples/dashboard/#
+## URLs of other frameworks
+Bootstrap:  https://www.getbootstrap.com
+Datatables:
+            https://datatables.net/
+            https://l-lin.github.io/angular-datatables/#/welcome
+            
