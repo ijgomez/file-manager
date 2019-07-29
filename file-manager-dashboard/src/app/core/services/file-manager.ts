@@ -6,13 +6,13 @@ export interface FileManager<T, C> {
 
     countByCriteria(criteria: C): Observable<number>;
 
-    create(trace: T): Observable<number>;
+    create(object: T): Observable<number>;
 
     read(id: number | string): Observable<T>;
 
-    update(trace: T): Observable<number>;
+    update(object: T): Observable<number>;
 
-    delete(trace: T): Observable<number>;
+    delete(object: T): Observable<number>;
 
     export(criteria: C): Observable<any>;
 }
