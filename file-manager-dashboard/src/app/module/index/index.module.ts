@@ -7,13 +7,14 @@ import { ListComponent } from './pages/list/list.component';
 import { UploadComponent } from './pages/upload/upload.component';
 import { CoreModule } from 'src/app/core/core.module';
 import { IndexService } from './services/index.service';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [HomeComponent, ListComponent, UploadComponent],
   imports: [
-    CommonModule,
+    CommonModule, HttpModule,
     IndexRoutingModule,
-    CoreModule
+    CoreModule    
   ],
   providers: [IndexService]
 })

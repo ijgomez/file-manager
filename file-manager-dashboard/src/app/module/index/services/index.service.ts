@@ -1,5 +1,8 @@
 import { Injectable } from '@angular/core';
+import { environment } from '../../../../environments/environment';
+import { Http, Response, RequestOptions, Headers, RequestMethod } from '@angular/http';
 import { Observable } from 'rxjs';
+import { map, catchError } from 'rxjs/operators';
 
 import { FileManagerServiceBase } from 'src/app/core/services/file-manager-service-base';
 import { FileManagerService } from 'src/app/core/services/file-manager-service';
@@ -9,7 +12,7 @@ import { IndexCriteria } from '../domain/index-criteria';
 @Injectable()
 export class IndexService extends FileManagerServiceBase implements FileManagerService<Index, IndexCriteria> {
 
-  constructor() {
+  constructor(http: Http) {
     super();
    }
 
