@@ -29,6 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## URLs of other frameworks
 Bootstrap:  https://www.getbootstrap.com
+Icons:      https://remixicon.com
 Datatables:
             https://datatables.net/
             https://l-lin.github.io/angular-datatables/#/welcome
