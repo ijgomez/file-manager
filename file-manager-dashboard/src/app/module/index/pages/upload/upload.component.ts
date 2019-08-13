@@ -12,4 +12,7 @@ export class UploadComponent implements OnInit {
   ngOnInit() {
   }
 
+  buttonAction(event): void {
+    alert('event: ' + event);
+  }
 }

@@ -1,6 +1,6 @@
 <p>
   list works! {{entity}}
 </p>
-<app-toolbar></app-toolbar>
+<app-toolbar view="index" (uploaded)="buttonAction($event)"></app-toolbar>
 <app-data-table-filter></app-data-table-filter>
 <app-data-table></app-data-table>

@@ -1,3 +1,4 @@
-<p>
-  toolbar works!
-</p>
+<button type="button" class="btn btn-outline-secondary btn-sm mr-1" (click)="onReolad()">Reload</button>
+<button type="button" [hidden]="hiddenAddButton" class="btn btn-outline-secondary btn-sm mr-1" (click)="onAdd()">Add</button>
+<button type="button" [hidden]="hiddenUploadButton" class="btn btn-outline-secondary btn-sm mr-1" (click)="onUpload()">Upload</button>
+<button type="button" class="btn btn-outline-secondary btn-sm mr-1" (click)="onExport()">Export</button>

@@ -16,4 +16,7 @@ export class ListComponent implements OnInit {
     this.entity = 'Index Entity...';
   }
 
+  buttonAction(event): void {
+    alert('event: ' + event);
+  }
 }
