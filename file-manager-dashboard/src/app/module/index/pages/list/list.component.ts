@@ -8,13 +8,9 @@ import { IndexService } from '../../services/index.service';
 })
 export class ListComponent implements OnInit {
 
-  entity: any;
-
   constructor(private indexService: IndexService) { }
 
-  ngOnInit() {
-    this.entity = 'Index Entity...';
-  }
+  ngOnInit() { }
 
   buttonAction(event): void {
     alert('event: ' + event);
