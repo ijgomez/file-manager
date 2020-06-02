@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataTableComponent implements OnInit {
 
+  dtOptions: DataTables.Settings = {};
+
   constructor() { }
 
   ngOnInit() {

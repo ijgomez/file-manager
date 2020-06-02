@@ -1,3 +1,8 @@
-<p>
-  home works!
-</p>
+<app-header-page [heading]="'Scheduler'"></app-header-page>
+<div class="nav-scroller ">
+  <nav class="nav nav-underline">
+    <a class="nav-link" routerLinkActive="active" routerLink="monitor">Monitor</a>
+    <a class="nav-link" routerLinkActive="active" routerLink="scheduler">Scheduler</a>
+  </nav>
+</div>
+<router-outlet></router-outlet>

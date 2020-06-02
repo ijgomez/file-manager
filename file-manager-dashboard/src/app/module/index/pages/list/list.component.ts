@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IndexService } from '../../services/index.service';
 
 @Component({
   selector: 'app-list',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  constructor() { }
+  constructor(private indexService: IndexService) { }
 
-  ngOnInit() {
+  ngOnInit() { }
+
+  buttonAction(event): void {
+    alert('event: ' + event);
   }
-
 }

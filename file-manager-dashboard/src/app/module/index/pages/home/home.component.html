@@ -1,6 +1,8 @@
-<p>
-  home works!
-</p>
-<a routerLink="list">Index List</a>
-<a routerLink="upload">Upload</a>
+<app-header-page [heading]="'Index'"></app-header-page>
+<div class="nav-scroller ">
+  <nav class="nav nav-underline">
+    <a class="nav-link" routerLinkActive="active" routerLink="list">Index List</a>
+    <a class="nav-link" routerLinkActive="active" routerLink="upload">Upload File</a>
+  </nav>
+</div>
 <router-outlet></router-outlet>
